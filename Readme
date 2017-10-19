@@ -7,3 +7,5 @@ called a moment in the data.  Each game is 48 minutes which is about a 70-80MB J
 launch.py runs prepare.py which uses the timestamps from the play by play to find the exact moment each shot was taken.
 launch.py was designed to use multicores on a cluster so we could parse multiple games simultaneously.
 For this project we had access to the Palmetto cluster at Clemson University.
+
+Work done by Nishant Vishwamitra and Hakeem Jones
