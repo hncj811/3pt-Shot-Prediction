@@ -1,0 +1,9 @@
+One SportsVu tracking file, play by play transcript (to find each 3pt shot time), python code to parse both types of files, 
+PCA to examine variability across data features, svm for classification (make or miss).
+
+Sportvu data is a report of player position for all 10 players and the basketball 25 times per sec with 1 ft accuracy. Each 1/25 sec is 
+called a moment in the data.  Each game is 48 minutes which is about a 70-80MB JSON file.
+
+launch.py runs prepare.py which uses the timestamps from the play by play to find the exact moment each shot was taken.
+launch.py was designed to use multicores on a cluster so we could parse multiple games simultaneously.
+For this project we had access to the Palmetto cluster at Clemson University.
